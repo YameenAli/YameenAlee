@@ -1,0 +1,643 @@
+*{
+	margin:0;
+	padding: 0;
+
+}
+body{
+	background-image: url(brushed.png);
+	
+}
+
+.container{
+	width:60%;
+	background-color: #999 ;
+	
+	margin:5% 20%;
+	border-radius: 0.5rem;
+	
+
+}
+.body-container{
+	
+	
+}
+.body-container h1 {
+	padding-top: 2rem;
+	text-align: center;
+}
+.body-container h3{
+	text-align: center;
+}
+.name-table table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 1.5rem;
+	
+
+}
+.name-table th{
+	padding-right: 3rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	
+	
+}
+.name-table td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+
+}
+.name-table td input {
+	padding:0.3rem 0.5rem;
+	margin-bottom: 0.3rem;
+	list-style-image: none;
+
+}
+.name-table:hover{
+	
+}
+
+.birth-table table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.5rem;
+	size: 4rem;
+	box-sizing: 4rem;
+	
+
+}
+.birth-table th{
+	padding-right: 1.7rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	
+}
+.birth-table td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+
+}
+.birth-table td select{
+	
+	margin-bottom: 0.3rem;
+	
+}
+.gender-table table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.5rem;
+	
+
+}
+.gender-table th{
+	padding-right: 4.5rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	
+	
+}
+.gender-table td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+
+}
+.gender-table td input {
+	padding:0.3rem 0.5rem;
+	margin-bottom: 0.3rem;
+	list-style-image: none;
+
+}
+.gender-table:hover{
+
+}
+.languages table{
+	background-color: 
+	border-radius: 0.5rem;
+	
+	padding-left: 2rem;
+
+}
+.languages caption{
+	background-color: silver;
+	padding: 1.5rem 0rem;
+	padding-right: 1.6rem;
+	font-size: 1.3rem;
+	text-align: center;
+	padding-left: 1rem;
+	border-radius: 1rem;
+	border-style: solid;
+	border-color: gray;
+	border-width: 0.1rem;
+	border-radius: 0.5rem; 
+	margin-left: 2rem;
+
+}
+.languages td{
+	background-color: #DDDDDD ;
+	padding: 0.3rem 3.1rem;
+	border-radius: 0.2rem;
+
+}
+
+.language table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.5rem;
+	
+
+}
+.language th{
+	padding-right: 3rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.language td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+}
+.language input{
+	padding: 0.2rem ;
+}	
+
+.site table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	
+
+}
+.site th{
+	padding-right: 1.5rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.site td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+}
+.site input{
+	padding: 0.2rem ;
+}
+.site p{
+	font-size: 0.7rem;
+	margin: 0.3rem;
+	font-family: sans-serif;
+}
+
+.working table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	
+
+}
+.working th{
+	padding-right: 1.5rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.working td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD ;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	padding-right: 20rem;
+}	
+
+
+.availability table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	
+
+}
+.availability th{
+	padding-right: 2.4rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.availability td{
+	padding: 0.5rem 1rem;
+	background-color:#DDDDDD ;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	padding-right: 20rem;
+}	
+
+.salary table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	
+
+}
+.salary th{
+	padding-right: 2.8rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.salary td{
+	padding: 0.5rem 1rem;
+	background-color:#DDDDDD ;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+
+}
+.salary input{
+	padding: 0.2rem ;
+	width: 5rem;
+}
+
+.location table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	
+
+}
+.location th{
+	padding-right: 4rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.location td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+}
+.location input{
+	padding: 0.2rem;
+	width: 15rem;
+}
+.location p{
+	font-size: 0.7rem;
+	margin: 0.3rem;
+	font-family: sans-serif;
+
+}
+.project table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	
+
+}
+.project th{
+	padding-right: 2.1rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.project td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+}
+.project input{
+	padding: 0.2rem ;
+	width: 15rem;
+}
+.what-project table{
+	background-color: 
+	border-radius: 0.5rem;
+	
+	padding-left: 2rem;
+
+}
+.what-project th{
+	background-color: silver;
+	padding: 1.5rem 0rem;
+	padding-right: 22rem;
+	font-size: 1.3rem;
+	text-align: center;
+	padding-left: 2rem;
+	border-radius: 1rem;
+	border-style: solid;
+	border-color: gray;
+	border-width: 0.1rem;
+	border-radius: 0.5rem; 
+
+}
+.what-project td{
+	background-color: #DDDDDD ;
+	padding: 1.1rem 1.1rem;
+	border-radius: 0.4rem;
+
+}
+
+.what-project textarea{
+	width: 44.5rem;
+	height: 5rem;
+}
+
+.release-table table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.5rem;
+	size: 4rem;
+	box-sizing: 4rem;
+	
+
+}
+.release-table th{
+	padding-right: 1.7rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	
+}
+.release-table td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+
+}
+.release-table td select{
+	
+	margin-bottom: 0.3rem;
+	
+}
+.email table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	
+
+}
+.email th{
+	padding-right: 4rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	padding-top:0.7rem;
+	padding-bottom: 0.7rem;
+	margin-top: 2rem;
+}
+.email td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+}
+.email input{
+	padding: 0.2rem ;
+	width: 12.8rem;
+}
+
+.phone-number table{
+	background-color: silver;
+	border-radius: 0.5rem;
+	margin-left: 3rem;
+	margin-top: 0.2rem;
+	size: 4rem;
+	box-sizing: 4rem;
+	
+
+}
+.phone-number th{
+	padding-right: 1.7rem;
+	padding-left: 1rem;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+	font-size: 1.2rem;
+	
+}
+.phone-number td{
+	padding: 0.5rem 1rem;
+	background-color: #DDDDDD;
+	border-style: solid ;
+	border-width: 0.1rem;
+	border-color: gray;
+	border-radius: 0.5rem;
+
+}
+.phone-number input{
+	width: 8rem;
+}
+
+.submit{
+	margin: 2rem 0rem;
+	display: block;
+
+}
+.submit input{
+	padding: 0.5rem 1rem;
+	background-color: #4d5154;
+	color:white;
+	border-radius: 0.7rem;
+	font-size: 1rem;
+	cursor: pointer;
+}
+.submit input:hover{
+	
+	background-color: gray;
+}
+.submit button{
+	padding: 0.5rem 0rem;
+	background-color: #4d5154;
+	color:white;
+	border-radius: 0.7rem;
+	font-size: 1rem;
+}
+.submit button a{
+	text-decoration: none;
+	color:white;
+	padding: 1rem 1rem;
+}
+.submit button:hover{
+	background-color: gray;
+}
+
+.link:hover{
+	background-color: red;
+}
+.link:link{
+	color:green;
+}
+
+
+
+
+
+
+html{
+	font-size: 99%;
+}
+
+
+	/*RESPONSIVE CODE*/
+
+@media   (max-width: 998px){
+	html{
+		width:112%;
+		
+	}
+	.body-container{
+		font-size: 70%;
+	}
+	.name-table table input{
+		width: 80%;
+		margin-right: -5rem;
+	}
+
+	.languages table input{
+		margin-right: -1.5rem;
+		float: left;
+		width: -1rem;
+		margin-left: -1rem;
+	}	
+
+	.working table tr td input{
+		
+		width: -7rem;
+		
+		
+	}
+
+	
+
+
+
+
+
+
+
+
+
+@media(max-width: 768px) {
+
+	html{
+		font-size: 45%;
+	}
+}
+
+@media(max-width: 640px) {
+
+	html{
+		font-size: 35%;
+	}
+}
+@media(max-width: 360px) {
+
+	html{
+		font-size: 25%;
+
+}
